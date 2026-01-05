@@ -9,9 +9,6 @@
 <body>
     <header>
         <div id="heading">
-            <img class="image" height="400px" width="400px" src="images/profile.jpg" alt="my-profile picture">
-            <h1 class="head_text">Parvez Nur Shadhin</h1>
-            <p class="heading_paragraph">Beginner Website Developer</p>
             <nav id="navigation">
                 <a class="a" href="#home">Home</a>
                 <a class="a"href="#about">About Me</a>
@@ -21,12 +18,19 @@
             </nav>
         </div>
     </header>
-    <div id="about_me">
-        <p class="biography_paragraph">
-            I’m Parvez Nur Shadhin, an aspiring web developer who is actively building a strong foundation in web technologies. I’m currently enrolled in the Programming Hero Web Development Course, where I’m learning how the web works from the ground up using HTML and CSS. I enjoy turning ideas into simple, structured, and visually clean web pages, and I’m focused on improving my skills step by step through consistent practice and real projects. My goal is to grow as a developer by learning deeply, building thoughtfully, and continuously refining my understanding of modern web development.
-        </p>
-    </div>
-    <div id="skills">
+    <main>
+        <section id="hero">
+            <div class="image">
+                <img height="200" src="./images/profile.jpg" alt="profile-picture">
+            </div>
+            <div class="information">
+                <h1>Parvez Nur Shadhin</h1>
+                <h3>Web developer</h3>
+                <small>I’m Parvez Nur Shadhin, an aspiring web developer who is actively building a strong foundation in web technologies. I’m currently enrolled in the Programming Hero Web Development Course, where I’m learning how the web works from the ground up using HTML and CSS. I enjoy turning ideas into simple, structured, and visually clean web pages, and I’m focused on improving my skills step by step through consistent practice and real projects. My goal is to grow as a developer by learning deeply, building thoughtfully, and continuously refining my understanding of modern web development.</small>
+            </div>
+        </section>
+        <section>
+            <div id="skills">
         <h2 class="skills">My Skills</h2>
         <ul class="skills_list">
             <li class="list_item">HTML</li>
@@ -34,6 +38,9 @@
             <li class="list_item">Javascript</li>
         </ul>
     </div>
+        </section>
+    </main>
+    
     <footer id="contact">
         <h2 class="contact_text">Contact Information</h2>
         <p class="contact_paragraph">Email: parveznur00@gmail.com</p>
